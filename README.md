@@ -1,4 +1,3 @@
-[README (2).md](https://github.com/user-attachments/files/31683569/README.2.md)
 <div align="center">
 
 # RAGHAV MALANI
