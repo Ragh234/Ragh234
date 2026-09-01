@@ -1,4 +1,4 @@
-name: Generate Contribution Snake
+name: Generate Profile Assets
 
 on:
   schedule:
@@ -25,6 +25,15 @@ jobs:
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
+
+      # Stats cards are fetched here at build time and committed as static
+      # files instead of embedding a live third-party URL in the README.
+      # This avoids the GitHub camo proxy timing out on a cold-started
+      # serverless function whenever someone views the profile.
+      - name: Fetch GitHub stats card
+        run: |
+          curl -fsSL "https://github-stats-extended.vercel.app/api?username=Ragh234&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=39FF14&icon_color=39FF14&text_color=c9d1d9" -o dist/stats.svg
+          curl -fsSL "https://github-stats-extended.vercel.app/api/top-langs/?username=Ragh234&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=39FF14&text_color=c9d1d9" -o dist/top-langs.svg
 
       - name: Push generated SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
