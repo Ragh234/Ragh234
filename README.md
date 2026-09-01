@@ -1,209 +1,185 @@
-# Raghav Malani
+[README (2).md](https://github.com/user-attachments/files/31683569/README.2.md)
+<div align="center">
 
-### AI/ML Engineer · Software Engineer · LNMIIT '27
+# RAGHAV MALANI
 
-I build **AI systems, developer tools, backend services, and production-minded applications** — from retrieval pipelines and intelligent agents to Android apps.
+<code>C++ · Python · Kotlin · AI</code>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Ragh234-181717?style=flat\&logo=github)](https://github.com/Ragh234)
+<i>building stuff · breaking stuff · shipping stuff · doing a bit of CP on the side ⚔️</i>
 
----
+<br>
 
-## 👋 About Me
+[![GitHub](https://img.shields.io/badge/GitHub-Ragh234-0d1117?style=for-the-badge&logo=github&logoColor=39FF14)](https://github.com/Ragh234)
+![Status](https://img.shields.io/badge/status-shipping-0d1117?style=for-the-badge&logoColor=39FF14&color=0d1117&labelColor=0d1117)
 
-* 🎓 B.Tech Computer & Communication Engineering student at **The LNM Institute of Information Technology (LNMIIT)**
-* 🤖 Interested in **AI/ML, RAG, LLM applications, intelligent agents, and developer tools**
-* 🛠️ I also build **backend systems, Android applications, APIs, databases, and data-driven products**
-* 🚀 I enjoy taking projects from **idea → architecture → implementation → testing → deployment**
-* 💡 I like understanding how systems work internally, not just making them work
-* 📚 Currently focused on becoming a stronger **end-to-end Software + AI Engineer**
+</div>
 
----
+<br>
 
-## 🚀 Featured Projects
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=15&duration=2200&pause=900&color=39FF14&center=true&vCenter=true&multiline=true&repeat=true&width=560&height=200&lines=%24+whoami;raghav%40github%3A~%24+.%2Fabout;%3E+CS+student%2C+LNMIIT;%3E+builder+of+random+things;%3E+AI+%2F+backend+%2F+Android;%3E+competitive+programming+enjoyer;%3E+professional+%22one+more+feature%22+dev;status%3A+coding..." alt="Terminal typing animation" />
+</p>
 
-### 🧠 Codebase Intelligence RAG
+<br>
 
-**A code-aware RAG system for asking grounded questions about GitHub repositories.**
-
-`Python` `Tree-sitter` `BM25` `FastEmbed` `NetworkX` `RAG` `Streamlit`
-
-* Parses source code into functions, classes, methods, imports, calls, and endpoints
-* Combines semantic retrieval with **BM25 lexical search**
-* Uses **graph-based context expansion** for related code
-* Applies reranking and bounded context construction
-* Provides **exact file/line citations**
-* Includes retrieval-only fallback without requiring an LLM
-* Includes evaluation metrics and automated tests
-
-🔗 **[View Repository →](https://github.com/Ragh234/codebase-intelligence-rag)**
-
----
-
-### 💰 CoinTrack
-
-**Cryptocurrency market and portfolio tracker built with Kotlin and Jetpack Compose.**
-
-`Kotlin` `Jetpack Compose` `MVVM` `Clean Architecture` `Room` `Retrofit` `Hilt`
-
-* Real-time cryptocurrency market tracking
-* INR pricing where supported
-* Persistent watchlist
-* Portfolio holdings and performance tracking
-* Invested value, current value, profit/loss and returns
-* Offline market-data caching
-* Coin details with market data and charts
-
-🔗 **[View Repository →](https://github.com/Ragh234/CoinTrack)**
-
----
-
-### 💹 FinOS
-
-**Finance-focused software project exploring practical financial workflows and data.**
-
-🔗 **[View Repository →](https://github.com/Ragh234/FinOS)**
-
----
-
-### 💊 Pharmalytics
-
-**Data-driven pharmaceutical analytics project focused on extracting useful insights from pharmaceutical data.**
-
-🔗 **[View Repository →](https://github.com/Ragh234/Pharmalytics)**
-
----
-
-### 🔎 RazorRecon
-
-**Engineering project focused on analysis and automation around payment and transaction workflows.**
-
-🔗 **[View Repository →](https://github.com/Ragh234/RazorRecon)**
-
----
-
-### 🏭 Conveyor Belt Damage Detection
-
-**Computer-vision project for detecting damage in conveyor belt systems.**
-
-🔗 **[View Repository →](https://github.com/Ragh234/Conveyer_belt_damage_detection)**
-
----
-
-## 🧰 Technical Stack
-
-### Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat\&logo=python\&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat\&logo=cplusplus\&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat\&logo=kotlin\&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat\&logo=openjdk\&logoColor=white)
-
-### AI / ML
-
-`RAG` · `LLM Applications` · `Embeddings` · `Information Retrieval` · `Computer Vision` · `NLP` · `Machine Learning`
-
-### Backend & Data
-
-`FastAPI` · `REST APIs` · `SQLite` · `Room` · `SQL` · `NumPy` · `NetworkX` · `BM25`
-
-### Application Development
-
-`Android` · `Jetpack Compose` · `MVVM` · `Clean Architecture` · `Retrofit` · `Hilt` · `Coroutines`
-
-### Tools & Infrastructure
-
-`Git` · `GitHub` · `GitHub Actions` · `Docker` · `Streamlit`
-
----
-
-## 🧠 Engineering Philosophy
-
-I care about building systems that are:
+## `~/currently`
 
 ```text
-                    ┌──────────────┐
-                    │   REAL USER  │
-                    │    PROBLEM   │
-                    └──────┬───────┘
-                           ↓
-                    ┌──────────────┐
-                    │   SYSTEM     │
-                    │  ARCHITECTURE│
-                    └──────┬───────┘
-                           ↓
-              ┌────────────┴────────────┐
-              ↓                         ↓
-        ┌──────────┐              ┌──────────┐
-        │   CODE   │              │   DATA   │
-        └────┬─────┘              └────┬─────┘
-             └────────────┬────────────┘
-                          ↓
-                   ┌─────────────┐
-                   │   TESTING   │
-                   └──────┬──────┘
-                          ↓
-                   ┌─────────────┐
-                   │  DEPLOYMENT │
-                   └──────┬──────┘
-                          ↓
-                   ┌─────────────┐
-                   │   ITERATE   │
-                   └─────────────┘
+> exploring RAG pipelines and how to make retrieval actually reliable
+> wiring up multi-agent systems that argue with each other before deciding anything
+> shipping backend + Android side quests faster than I finish the last one
+> half-building something new at 1am on a "quick idea"
+> probably in the middle of a hackathon or about to be
 ```
 
-**Explainable · Testable · Maintainable · Scalable · Actually Useful**
+<br>
 
-I don't want to build projects that only work in a demo.
+## `~/projects`
 
-I want to understand the engineering behind them.
+The ones I'd actually defend in a technical interview.
 
----
+<br>
 
-## 📊 GitHub Stats
+### 🧠 `codebase-intelligence-rag`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ragh234&show_icons=true&hide_border=true&rank_icon=github" alt="Raghav's GitHub Stats" />
-</p>
+**A code-aware RAG system that answers grounded questions about GitHub repos — with exact file/line citations.**
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ragh234&layout=compact&hide_border=true" alt="Top Languages" />
-</p>
+`Python` `Tree-sitter` `BM25` `FastEmbed` `NetworkX` `Streamlit`
 
----
+Vector search alone misses exact identifiers and symbols, so this fuses semantic retrieval with BM25 lexical search via reciprocal rank fusion, parses code with Tree-sitter into functions/classes/calls, and expands context through a lightweight code graph before reranking. Runs fully local — no OpenAI key required to index or retrieve.
 
-## 🔥 What I'm Building
+🔗 [github.com/Ragh234/codebase-intelligence-rag](https://github.com/Ragh234/codebase-intelligence-rag)
+
+<br>
+
+### 🤖 `MarketMind AI` — `TRADING_AGENT`
+
+**A multi-agent market analysis system: five agents argue in parallel, one synthesizes the verdict.**
+
+`Python` `LangGraph` `Groq` `yfinance` `Streamlit`
+
+Price, sentiment, on-chain, macro, and risk agents fan out from a single LangGraph node, run concurrently, and merge into a synthesis agent that produces a bullish/bearish/neutral call with a confidence score and reasoning. Basically a small committee that has to actually agree before it says anything.
+
+🔗 [github.com/Ragh234/TRADING_AGENT](https://github.com/Ragh234/TRADING_AGENT)
+
+<br>
+
+### 💹 `FinOS`
+
+**A multi-tenant financial operating system — ERP, accounting, and collections in one platform.**
+
+`Next.js` `NestJS` `PostgreSQL` `Redis` `BullMQ`
+
+Double-entry accounting, invoice → payment → reconciliation flows, a transactional outbox for reliable event publication, and idempotency keys so financial APIs survive retries and duplicate requests without double-charging anyone. The unglamorous plumbing that makes finance software trustworthy.
+
+🔗 [github.com/Ragh234/FinOS](https://github.com/Ragh234/FinOS)
+
+<br>
+
+### 🔎 `RazorRecon`
+
+**An AI finance controller for payment reconciliation — deterministic math, LLM only for explaining exceptions.**
+
+`Python` `Streamlit` `Gemini`
+
+Reconciliation logic (ID matching, settlement linkage, fees, refunds, duplicates) stays fully deterministic against a 540-payment benchmark; an LLM investigator is boxed in with read-only tools to explain *why* something didn't match — never to touch the numbers. Live demo included, because a project that only runs on localhost doesn't count.
+
+🔗 [github.com/Ragh234/RazorRecon](https://github.com/Ragh234/RazorRecon) · [live demo](https://razorrecon-sqdzzsbxwdkzpokgn28xpp.streamlit.app/)
+
+<br>
+
+### 📱 `CoinTrack`
+
+**A crypto market + portfolio tracker, built the "actually maintainable" way.**
+
+`Kotlin` `Jetpack Compose` `MVVM` `Room` `Hilt`
+
+Clean Architecture end to end: Compose UI → ViewModel → use cases → repository → Room/Retrofit. Live INR pricing, offline caching, a persistent watchlist, and real profit/loss tracking on portfolio holdings — not just a coin-price wrapper.
+
+🔗 [github.com/Ragh234/CoinTrack](https://github.com/Ragh234/CoinTrack)
+
+<br>
+
+### 🛒 `KeywordIQ`
+
+**A full-stack Amazon keyword research SaaS with a homegrown ranking algorithm.**
+
+`React` `Node.js` `FastAPI` `scikit-learn` `MongoDB`
+
+Node/Express handles auth and the client gateway; a Python/FastAPI microservice scrapes live listings and scores keywords on a weighted mix of frequency, TF-IDF significance, and rank position — instead of just counting occurrences like everyone else's version of this tool.
+
+🔗 [github.com/Ragh234/KeywordIQ](https://github.com/Ragh234/KeywordIQ)
+
+<br>
+
+## `~/side-quest`
 
 ```text
-AI Engineering       ████████████████████
-RAG / Retrieval      ███████████████████░
-Backend Systems      ██████████████████░░
-Applied ML           █████████████████░░░
-Android Development  ███████████████░░░░░
-System Design        ███████████████░░░░░
+⚔️ competitive programming
+
+C++ · DSA · algorithms
+one more problem before sleep
 ```
 
----
+<br>
 
-## 🤝 Let's Connect
+## `~/toolbox`
 
-I'm always interested in:
+```text
+LANGUAGES
+C++ · Python · Kotlin · TypeScript · Java
 
-* 🤖 AI / ML engineering
-* 🧠 RAG and intelligent systems
-* 🛠️ Developer tools
-* ⚙️ Backend engineering
-* 📱 Android development
-* 🚀 Hackathons and ambitious projects
-* 💻 Open-source collaboration
+AI / ML
+RAG · LangGraph · LLMs (Gemini, Groq) · Embeddings · NLP · Computer Vision (YOLOv8)
 
-If you're building something interesting, feel free to reach out.
+BACKEND / DATA
+FastAPI · NestJS · Express.js · PostgreSQL · MongoDB · Redis · Qdrant · REST APIs
 
----
+APP DEVELOPMENT
+Android · Jetpack Compose · Room · MVVM · Hilt
+
+TOOLS
+Git · GitHub Actions · Docker · Streamlit
+```
+
+<br>
+
+## `~/stats`
 
 <p align="center">
-
-### Build → Break → Learn → Ship → Repeat.
-
-⭐ **If you find one of my projects useful, consider giving it a star.**
-
+  <img src="https://github-readme-stats.vercel.app/api?username=Ragh234&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=39FF14&icon_color=39FF14&text_color=c9d1d9" alt="GitHub stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ragh234&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=39FF14&text_color=c9d1d9" alt="Top languages" height="165" />
 </p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ragh234/Ragh234/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ragh234/Ragh234/output/snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/Ragh234/Ragh234/output/snake.svg" />
+  </picture>
+</p>
+
+<br>
+
+## `~/connect`
+
+Interested in AI/RAG systems, backend engineering, Android, or the next hackathon idea that probably isn't sleep-schedule-friendly. Reach out on [GitHub](https://github.com/Ragh234).
+
+<br>
+
+```text
+raghav@github:~$ git status
+On branch main
+Changes not staged for commit:
+        modified:   side-projects/
+        modified:   sleep-schedule/
+        untracked:  three-new-ideas-from-tonight/
+
+nothing to commit, everything to build.
+```
+
+<div align="center">
+
+**⚔️ ship it, then fix it, then ship it again.**
+
+</div>
