@@ -146,8 +146,8 @@ Git · GitHub Actions · Docker · Streamlit
 ## `~/stats`
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ragh234&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=39FF14&icon_color=39FF14&text_color=c9d1d9" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ragh234&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=39FF14&text_color=c9d1d9" alt="Top languages" height="165" />
+  <img src="https://raw.githubusercontent.com/Ragh234/Ragh234/output/stats.svg" alt="GitHub stats" height="165" />
+  <img src="https://raw.githubusercontent.com/Ragh234/Ragh234/output/top-langs.svg" alt="Top languages" height="165" />
 </p>
 
 <p align="center">
