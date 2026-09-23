@@ -81,7 +81,7 @@ Double-entry accounting, invoice → payment → reconciliation flows, a transac
 
 `Python` `Streamlit` `Gemini`
 
-Reconciliation logic (ID matching, settlement linkage, fees, refunds, duplicates) stays fully deterministic against a 540-payment benchmark; an LLM investigator is boxed in with read-only tools to explain *why* something didn't match — never to touch the numbers. Live demo included, because a project that only runs on localhost doesn't count.
+Reconciliation logic (ID matching, settlement linkage, fees, refunds, duplicates) stays fully deterministic against a 5,000-payment benchmark; an LLM investigator is boxed in with read-only tools to explain *why* something didn't match — never to touch the numbers. Live demo included, because a project that only runs on localhost doesn't count.
 
 🔗 [github.com/Ragh234/RazorRecon](https://github.com/Ragh234/RazorRecon) · [live demo](https://razorrecon-sqdzzsbxwdkzpokgn28xpp.streamlit.app/)
 
